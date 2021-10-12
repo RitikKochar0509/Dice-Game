@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#main{
+
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+    margin: 20px;
+    font-size: 50px;
+    color: wheat;
+}
+#img{
+
+        width: 100px;
+        height: 100px;
+        
+    
+}
+.middle{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 20px;
+    color: white;
+}
+.number{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.number>p{
+    font-size: 30px;
+}
+.number>input{
+
+    width: 40px;
+    height: 30px;
+    margin-left: 20px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.shuf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#btn{
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    background: #21d4f8;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(19deg,#21d4fd,#b721ff 100%);
+
+    
+}
+
+
+#numberpad{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+
+.first{
+    
+    align-items: center;
+    
+    text-align: center;
+    justify-content: center;
+    
+    width: 60px;
+    height: 60px;
+    border-radius: 80px;
+    margin: 20px;
+}
+
+#tm{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
